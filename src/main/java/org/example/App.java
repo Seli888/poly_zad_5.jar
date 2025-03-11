@@ -2,9 +2,10 @@ package org.example;
 
 public class App {
     public static void main(String[] args) {
-        Animal animalDog = new Dog();
-        animalDog.makeSound();
-        Animal animalCat = new Cat();
-        animalCat.makeSound();
+        Shape shape = new Square();
+        shape.draw();
+        Shape shape1 = new Circle();
+        shape1.draw();
+
     }
 }
