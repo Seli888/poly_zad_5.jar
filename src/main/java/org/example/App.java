@@ -1,12 +1,13 @@
 package org.example;
-import java.util.Arrays;
 
 
 public class App {
     public static void main(String[] args) {
-    Animal[] newAnimal = new Animal[] { new Animal(), new Dog(), new Cat()};
-    for (int i = 0; i < newAnimal.length; i++){
-        newAnimal[i].makeSound();
-        }
+        Calculate calcInt = new Calculate();
+        Calculate calcString = new Calculate();
+        Calculate calcDouble = new Calculate();
+        System.out.println(calcInt.add(5));
+        System.out.println(calcString.add("piw"));
+        System.out.println(calcDouble.add(123.3));
     }
 }
